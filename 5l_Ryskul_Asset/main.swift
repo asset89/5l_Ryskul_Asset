@@ -150,6 +150,8 @@ var sportCar = SportCar(model: "Nissan Skyline", releaseYear: 2020, windowState:
 sportCar.printDescription()
 sportCar.drive()
 sportCar.engineControl(.stop)
+sportCar.windowControl(.open)
+print(sportCar.windowState)
 
 
 print("\n")
